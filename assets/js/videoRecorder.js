@@ -1,6 +1,3 @@
-const { doc } = require("prettier");
-const e = require("express");
-
 const recorderContainer = document.getElementById("jsRecordContainer");
 const recordBtn = document.getElementById("jsRecordBtn");
 const videoPreview = document.getElementById("jsVideoPreview");
@@ -22,6 +19,6 @@ function init() {
   recordBtn.addEventListener("click", statrRecording);
 }
 
-if (jsRecordContainer) {
+if (recorderContainer) {
   init();
 }
